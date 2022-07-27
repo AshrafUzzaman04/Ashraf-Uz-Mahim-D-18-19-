@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,18 +6,36 @@
 }
 
 .container > .row .navbar {
-  background-color: #e3f2fd;
+  background-color: #c9dff6;
 }
 .container > .row .navbar > .container-fluid > .text-uppercase {
   font-weight: bold;
   font-variant: small-caps;
-  color: rgba(18, 141, 141, 0.781);
-  font-family: "Dancing Script", cursive;
+  color: rgb(0, 87, 128);
+  letter-spacing: 2px;
+  font-family: "Lobster", cursive;
   transition: 0.5s;
 }
 .container > .row .navbar > .container-fluid > .text-uppercase:hover {
   color: rgba(9, 68, 68, 0.781);
 }
 .container > .row .navbar > .container-fluid > .collapse > .navbar-nav > .nav-item {
+  margin: 0px 5px;
+}
+.container .carousel-caption {
+  background-color: rgba(158, 205, 255, 0.3960784314);
+}
+.container .carousel-caption > .h5,
+.container .carousel-caption h5 {
+  font-size: 2.25rem;
+  font-variant: small-caps;
+}
+.container .carousel-caption > p {
+  font-size: 1.25rem;
+}
+.container .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
   margin: 0px 5px;
 }/*# sourceMappingURL=style.css.map */

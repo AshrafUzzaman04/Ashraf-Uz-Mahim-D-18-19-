@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 * {
   margin: 0;
@@ -9,13 +9,14 @@
 .container {
   > .row {
     .navbar {
-      background-color: #e3f2fd;
+      background-color: #c9dff6;
       > .container-fluid {
         > .text-uppercase {
           font-weight: bold;
           font-variant: small-caps;
-          color: rgba(18, 141, 141, 0.781);
-          font-family: "Dancing Script", cursive;
+          color: rgb(0, 87, 128);
+          letter-spacing: 2px;
+          font-family: "Lobster", cursive;
           transition: 0.5s;
           &:hover {
             color: rgba(9, 68, 68, 0.781);
@@ -30,5 +31,23 @@
         }
       }
     }
+  }
+
+  .carousel-caption {
+    background-color: #9ecdff65;
+    > .h5,
+    h5 {
+      font-size: 2.25rem;
+      font-variant: small-caps;
+    }
+    > p {
+      font-size: 1.25rem;
+    }
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0px 5px;
   }
 }
