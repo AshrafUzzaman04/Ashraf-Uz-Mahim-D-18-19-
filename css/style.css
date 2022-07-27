@@ -38,4 +38,27 @@
   height: 10px;
   border-radius: 50%;
   margin: 0px 5px;
+}
+.container .carousel-control-next-icon,
+.container .carousel-control-prev-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 70% 100%;
+  border-radius: 50%;
+  background-color: rgba(158, 205, 255, 0.3960784314);
+}
+.container .fa-solid,
+.container .fas {
+  background-color: #c9dff6;
+}
+.container .btn-outline-info {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.container .btn-outline-info:hover {
+  background-color: #c9dff6;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
