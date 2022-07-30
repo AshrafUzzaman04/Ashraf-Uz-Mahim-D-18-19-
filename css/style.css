@@ -22,6 +22,9 @@
 .container > .row .navbar > .container-fluid > .collapse > .navbar-nav > .nav-item {
   margin: 0px 5px;
 }
+.container > .row .navbar > .container-fluid > .collapse > form > .input-group > .input-group-text > .fa-magnifying-glass {
+  background: none;
+}
 .container .carousel-caption {
   background-color: rgba(158, 205, 255, 0.3960784314);
   position: absolute;
@@ -85,4 +88,10 @@
 }
 .container .customer-service .customer-row > .col-xl-3 > .blockquote > p {
   font-size: 17px;
+}
+.container > .introduction-div > .col-xl-4 {
+  background-color: rgba(153, 184, 199, 0.8352941176);
+}
+.container > .introduction-div > .col-xl-8 {
+  background-color: rgba(192, 224, 239, 0.9019607843);
 }/*# sourceMappingURL=style.css.map */

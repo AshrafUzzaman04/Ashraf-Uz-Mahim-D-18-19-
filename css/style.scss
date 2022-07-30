@@ -28,6 +28,15 @@
               margin: 0px 5px;
             }
           }
+          > form {
+            > .input-group {
+              > .input-group-text {
+                > .fa-magnifying-glass {
+                  background: none;
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -102,6 +111,14 @@
           }
         }
       }
+    }
+  }
+  > .introduction-div {
+    > .col-xl-4 {
+      background-color: #99b8c7d5;
+    }
+    > .col-xl-8 {
+      background-color: #c0e0efe6;
     }
   }
 }
