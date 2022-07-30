@@ -69,4 +69,20 @@
 .container .btn-outline-info:hover {
   background-color: #c9dff6;
   color: #000;
+}
+@media only screen and (max-width: 576) {
+  .container .container .fa-solid,
+.container .container .fas {
+    margin-top: 20px;
+  }
+}
+.container .customer-service .customer-row {
+  background-color: rgba(228, 241, 255, 0.8549019608);
+}
+.container .customer-service .customer-row > .col-xl-3 > .blockquote > .fa-solid {
+  font-size: 25px;
+  padding: 13px 15px !important;
+}
+.container .customer-service .customer-row > .col-xl-3 > .blockquote > p {
+  font-size: 17px;
 }/*# sourceMappingURL=style.css.map */

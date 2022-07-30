@@ -82,4 +82,26 @@
       color: #000;
     }
   }
+  @media only screen and (max-width: 576) {
+    .container .fa-solid,
+    .container .fas {
+      margin-top: 20px;
+    }
+  }
+  .customer-service {
+    .customer-row {
+      background-color: #e4f1ffda;
+      > .col-xl-3 {
+        > .blockquote {
+          > .fa-solid {
+            font-size: 25px;
+            padding: 13px 15px !important;
+          }
+          > p {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
 }
